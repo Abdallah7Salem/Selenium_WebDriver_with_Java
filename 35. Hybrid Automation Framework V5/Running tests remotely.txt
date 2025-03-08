@@ -1,0 +1,11 @@
+How to run tests remotely in a standalone setup?
+1- Install Selenium Server
+2- Run this command:
+java -jar selenium-server-[PLACE_THE_VERSION_HERE].jar standalone
+3- Implement the code for remote execution in the base class
+4- Configure the env to be remote in config.properties file
+5- Select the OS and the Broswer from the xml File
+6- Run the tests through the xml file
+
+-----------------------
+standalone setup: same system acting as a hub and a node.
